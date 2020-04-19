@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+body {
+    margin: 0;
+}
+
+div[class*="parallax"] {
+    height: 1080px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax0 {
+    background-image: url("pics/pic0.jpg");
+}
+.parallax1 {
+    background-image: url("pics/pic1.jpg");
+}
+
+.parallax2 {
+    background-image: url("pics/pic2.jpeg");
+}
+
+.parallax3 {
+    background-image: url("pics/pic3.jpeg");
+}
+
+.msg {
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    font-family: "Cabin", sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+.top {
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    font-family: "Cabin", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
