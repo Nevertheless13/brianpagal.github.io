@@ -3,7 +3,11 @@
 body {
     margin: 0;
 }
-
+.vid {
+    text-align: center;
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+}
 div[class*="parallax"] {
     height: 1080px;
     background-attachment: fixed;
@@ -15,6 +19,7 @@ div[class*="parallax"] {
 .parallax0 {
     background-image: url("pics/pic0.jpg");
 }
+
 .parallax1 {
     background-image: url("pics/pic1.jpg");
 }
@@ -27,20 +32,126 @@ div[class*="parallax"] {
     background-image: url("pics/pic3.jpeg");
 }
 
+.parallax4 {
+    background-image: url("pics/pic4.jpg");
+}
+
+.parallax5 {
+    background-image: url("pics/pic5.jpg");
+}
+
+.parallax6 {
+    background-image: url("pics/pic6.jpeg");
+}
+
+.parallaxextra1 {
+    background-image: url("pics/extra1.jpeg");
+}
+.parallaxextra2 {
+    background-image: url("pics/extra2.jpeg");
+}
+.parallaxextra3 {
+    background-image: url("pics/extra3.jpeg");
+}
+.parallaxextra4 {
+    background-image: url("pics/extra4.jpeg");
+}
+.parallaxextra5 {
+    background-image: url("pics/extra5.jpeg");
+}
+.parallaxextra6 {
+    background-image: url("pics/extra6.jpeg");
+}
+.parallaxextra7 {
+    background-image: url("pics/extra7.jpeg");
+}
+.parallaxextra8 {
+    background-image: url("pics/extra8.jpeg");
+}
+.parallaxextra9 {
+    background-image: url("pics/extra9.jpeg");
+}
+.parallaxextra10 {
+    background-image: url("pics/extra10.jpeg");
+}
+.parallaxextra11 {
+    background-image: url("pics/extra11.jpeg");
+}
+.parallaxextra12 {
+    background-image: url("pics/extra12.jpeg");
+}
+.parallaxextra13 {
+    background-image: url("pics/extra13.jpeg");
+}
+.parallaxextra14 {
+    background-image: url("pics/extra14.jpeg");
+}
+.parallaxextra15 {
+    background-image: url("pics/extra15.jpeg");
+}
+
+.parallaxspecial1 {
+    background-image: url("pics/special1.jpg");
+}
+
+.parallaxspecial2 {
+    background-image: url("pics/special2.jpeg");
+}
+
 .msg {
     background-color: #36096d;
     background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
     font-family: "Cabin", sans-serif;
-    font-size: 28px;
+    font-size: 36px;
     color: white;
 }
 
-.top {
+.banner {
     background-color: #36096d;
     background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
     font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    font-size: 72px;
     color: white;
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.list {
+    text-align: center;
+}
+
+#shadowBox {
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    border: 3px solid;
+}
+
+.rainbow {
+    text-align: center;
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    font-size: 72px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
