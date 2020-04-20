@@ -123,6 +123,7 @@ div[class*="parallax"] {
 
 .list {
     text-align: center;
+    margin: 0;
 }
 
 #shadowBox {
