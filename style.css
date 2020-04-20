@@ -44,6 +44,9 @@ div[class*="parallax"] {
     background-image: url("pics/pic6.jpeg");
 }
 
+.parallaxextra0 {
+    background-image: url("pics/extra0.jpg");
+}
 .parallaxextra1 {
     background-image: url("pics/extra1.jpeg");
 }
@@ -95,7 +98,7 @@ div[class*="parallax"] {
 }
 
 .parallaxspecial2 {
-    background-image: url("pics/special2.jpeg");
+    background-image: url("pics/special2.jpg");
 }
 
 .msg {
